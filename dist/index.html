@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BryanTech</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-DFuRJwYm.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <h1>BryanTech</h1>
+    <p>Assistência Técnica e Venda de Celulares</p>
+
+   <a href="https://wa.me/5561998732910" target="_blank" class="whatsapp-btn">
+        Faça seu orçamento pelo WhatsApp
+    </a>
+</header>
+
+<section class="banner">
+    <div class="slider">
+        <img src="/assets/banner-CJLmFxH-.jpg" class="slide active">
+        <img src="/assets/banner2-j3xM5QwL.jpg" class="slide">
+        <img src="/assets/banner3-DIkij5fw.jpg" class="slide">
+        <img src="/assets/banner4-cA-giNu5.jpg" class="slide">
+        <img src="/assets/banner5-kUa6CcZv.jpg" class="slide">
+    </div>
+
+    <h2>Seu celular novo ou consertado com qualidade</h2>
+    <p>Troca de tela, bateria, películas, capinhas e aparelhos.</p>
+
+    <a href="https://wa.me/5561998732910" target="_blank" class="whatsapp-btn">
+        Fale conosco no WhatsApp
+    </a>
+</section>
+
+<section id="sobre" class="sobre">
+    <h2>Sobre</h2>
+    <p>
+     A BryanTech atua há mais de 4 anos no mercado, trabalhando com venda de celulares novos e usados,
+        além de diversos acessórios como capinhas, carregadores, películas e outros produtos.
+
+        Também oferecemos assistência técnica especializada, com serviços de troca de tela,
+        bateria e manutenção em geral, sempre prezando pela qualidade,
+        confiança e atendimento rápido para nossos clientes.
+    </p>
+</section>
+
+<section id="produtos" class="produtos">
+    <h2>Produtos</h2>
+    <div class="cards">
+        <div class="card">Celulares</div>
+        <div class="card">Carregadores turbo</div>
+        <div class="card">Películas</div>
+        <div class="card">Capinhas</div>
+    </div>
+</section>
+
+<section id="servicos" class="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="cards">
+        <div class="card">Troca de Tela</div>
+        <div class="card">Troca de Bateria</div>
+        <div class="card">Películas</div>
+        <div class="card">Capinhas</div>
+        <div class="card">Venda de Celulares</div>
+    </div>
+</section>
+
+<section id="contato" class="contato">
+    <h2>Contato</h2>
+    <a href="https://wa.me/5561998732910" target="_blank" class="whatsapp-btn">
+        Fale conosco no WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 BryanTech</p>
+</footer>
+
+<script>
+let slides = document.querySelectorAll('.slide');
+let index = 0;
+
+function showSlide(){
+    slides.forEach(slide => slide.classList.remove('active'));
+    index++;
+    if(index > slides.length - 1){
+        index = 0;
+    }
+    slides[index].classList.add('active');
+}
+
+setInterval(showSlide, 3000);
+</script>
+
+</body>
+</html>
