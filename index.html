@@ -8,6 +8,7 @@
 
 
 <title>BryanTech | Assistência Técnica de Celulares em Brasília</title>
+<link rel="icon" href="images/iconBT.jpeg">
 
 <meta name="description" content="BryanTech oferece assistência técnica de celulares, troca de tela, bateria, acessórios e venda de aparelhos em Brasília. Atendimento rápido e especializado.">
 
@@ -34,33 +35,33 @@
         <a href="#contato">Contato</a>
     </nav>
 
-    <h1>BryanTech</h1>
-    <p>Assistência Técnica e Venda de Celulares</p>
+    <img src="images/logoBryanTech.jpeg" alt="Logo BryanTech" class="logo">
+    
+    <p></p>
+    <p></p>
+    <p>Especialistas em Assistência Técnica, Venda de Celulares e Acessórios em Brasília.</p>
 
-   <a href="https://wa.me/5561998732910" target="_blank" class="whatsapp-btn">
+   <a href="https://wa.me/5561984672405" target="_blank" class="whatsapp-btn">
         Faça seu orçamento pelo WhatsApp
     </a>
 </header>
 
 <section class="banner">
-    <div class="slider">
-        <img src="images/banner.jpg" class="slide active">
-        <img src="images/banner2.jpg" class="slide">
-        <img src="images/banner3.jpg" class="slide">
-        <img src="images/banner4.jpg" class="slide">
-        <img src="images/banner5.jpg" class="slide">
-    </div>
 
-    <h2>Seu celular novo ou consertado com qualidade</h2>
-    <p>Troca de tela, bateria, películas, capinhas e aparelhos.</p>
+           <img src="images/bannerBT.jpg" alt="Banner da BryanTech" class="hero-image">
+    
+    <h2>Seu smartphone merece o melhor cuidado.</h2>
+    <p>Assistência técnica especializada  em smartphones,venda de celulares e acessórios em Brasília.</p>
 
-    <a href="https://wa.me/5561998732910" target="_blank" class="whatsapp-btn">
+    <a href="https://wa.me/5561984672405" target="_blank" class="whatsapp-btn">
         Fale conosco no WhatsApp
     </a>
 </section>
 
 <section id="sobre" class="sobre">
     <h2>Sobre</h2>
+
+   
     <p>
      A BryanTech atua há mais de 4 anos no mercado, trabalhando com venda de celulares novos e usados,
         além de diversos acessórios como capinhas, carregadores, películas e outros produtos.
@@ -70,6 +71,32 @@
         confiança e atendimento rápido para nossos clientes.
     </p>
 </section>
+
+ <section class="diferenciais">
+<h2>Por que escolher a BryanTech?</h2>
+
+<div class="cards">
+
+<div class="card">
+✔ Atendimento rápido
+</div>
+
+<div class="card">
+✔ Peças de qualidade
+</div>
+
+<div class="card">
+✔ Garantia nos serviços
+</div>
+
+<div class="card">
+✔ Mais de 4 anos de experiência
+</div>
+
+</div>
+
+</section>
+
 
 <section id="produtos" class="produtos">
     <h2>Produtos</h2>
@@ -94,30 +121,25 @@
 
 <section id="contato" class="contato">
     <h2>Contato</h2>
-    <a href="https://wa.me/5561998732910" target="_blank" class="whatsapp-btn">
+    <a href="https://wa.me/5561984672405" target="_blank" class="whatsapp-btn">
         Fale conosco no WhatsApp
     </a>
 </section>
 
 <footer>
-    <p>© 2026 BryanTech</p>
+
+<h3>BryanTech</h3>
+
+<p>Assistência Técnica Especializada</p>
+
+<p>📍 Brasília - DF</p>
+
+<p>📱 (61) 98467-2405</p>
+
+<p>© 2026 Todos os direitos reservados.</p>
+
 </footer>
-
-<script>
-let slides = document.querySelectorAll('.slide');
-let index = 0;
-
-function showSlide(){
-    slides.forEach(slide => slide.classList.remove('active'));
-    index++;
-    if(index > slides.length - 1){
-        index = 0;
-    }
-    slides[index].classList.add('active');
-}
-
-setInterval(showSlide, 3000);
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
