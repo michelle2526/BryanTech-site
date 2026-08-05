@@ -10,10 +10,13 @@ html{
 
 body{
     overflow-x:hidden;
-    background:#050505;
+    background:
+    radial-gradient(circle at top right, #003cff33, transparent 35%),
+    radial-gradient(circle at bottom left, #00d9ff22, transparent 30%),
+    #050505;
+
     color:#fff;
     font-family:'Poppins',sans-serif;
-
 }
 
 main{
@@ -151,9 +154,12 @@ transform:scale(1.03);
 .produtos,
 .servicos,
 .contato{
-
-padding:50px 20px;
-
+    padding:50px 20px;
+    background:linear-gradient(
+        180deg,
+        transparent,
+        #001a3d22
+    );
 }
 
 
