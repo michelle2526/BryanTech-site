@@ -148,21 +148,6 @@ transform:scale(1.03);
 
 
 
-/* Seções */
-
-.sobre,
-.produtos,
-.servicos,
-.contato{
-    padding:50px 20px;
-    background:linear-gradient(
-        180deg,
-        transparent,
-        #001a3d22
-    );
-}
-
-
 
 .sobre p{
 
