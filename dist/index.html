@@ -23,12 +23,16 @@
 
   gtag('config', 'G-51HR9B2STH');
 </script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DLh48oKg.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-B3bN5Hrl.css">
 </head>
 
 <body>
 
 <header>
+
+    <!-- <button class="menu-toggle">☰</button> -->
+
+
     <nav>
         <a href="#sobre">Sobre</a>
         <a href="#produtos">Produtos</a>
@@ -42,9 +46,14 @@
     <p></p>
     <p>Especialistas em Assistência Técnica, Venda de Celulares e Acessórios em Brasília.</p>
 
+
+    <a href="https://wa.me/5561998732910" target="_blank" class="whatsapp-btn">
+
    <a href="https://wa.me/5561984672405" target="_blank" class="whatsapp-btn">
+
         Faça seu orçamento pelo WhatsApp
     </a>
+
 </header>
 
 
@@ -149,7 +158,32 @@
 <p>© 2026 Todos os direitos reservados a bryantech.</p>
 
 </footer>
+
+
+<script>
+let slides = document.querySelectorAll('.slide');
+let index = 0;
+
+function showSlide(){
+    slides.forEach(slide => slide.classList.remove('active'));
+    index++;
+    if(index > slides.length - 1){
+        index = 0;
+    }
+    slides[index].classList.add('active');
+}
+
+setInterval(showSlide, 3000);
+const botao = document.querySelector(".menu-toggle");
+const menu = document.querySelector("nav");
+
+botao.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});
+</script>
+
 <script  src="/src/script.js"></script>
+
 
 </body>
 </html>
