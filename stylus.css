@@ -6,7 +6,7 @@
         gap:15px;
     }
 
-<<<<<<< HEAD
+
     nav.active{
         display:flex;
     }
@@ -20,7 +20,7 @@ footer{
     padding:20px;
     margin-top:30px;
 }
-=======
+
 body{
     overflow-x:hidden;
     background:
@@ -334,4 +334,4 @@ transform:scale(1.08);
     border-radius:50%;
     object-fit:cover;
 }
->>>>>>> 1aba01e281c7de8063165ff07ed5fff59c27acf4
+
