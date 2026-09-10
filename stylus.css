@@ -1,11 +1,24 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+    
 
-html{
-    scroll-behavior:smooth;
+    nav{
+        display:none;
+        flex-direction:column;
+        gap:15px;
+    }
+
+
+    nav.active{
+        display:flex;
+    }
+
+    nav a{
+        display:block;
+        margin:10px;
+    }
+footer{
+    background:#000207;
+    padding:20px;
+    margin-top:30px;
 }
 
 body{
@@ -321,3 +334,4 @@ transform:scale(1.08);
     border-radius:50%;
     object-fit:cover;
 }
+
